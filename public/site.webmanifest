@@ -1,0 +1,14 @@
+{
+  "name": "NovaFrame Studios",
+  "short_name": "NovaFrame",
+  "description": "Cinematic animation, motion design and digital storytelling studio.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#08070b",
+  "theme_color": "#08070b",
+  "icons": [{
+    "src": "/favicon.svg",
+    "sizes": "any",
+    "type": "image/svg+xml"
+  }]
+}
