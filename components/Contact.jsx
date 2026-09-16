@@ -1,0 +1,1 @@
+export default function Contact(){return <section className="bg-black text-white py-20 px-6 text-center"><h2 className="text-4xl font-bold">Create Your Next Animated Story</h2><p className="text-gray-400 mt-4">Contact NovaFrame Studios for animation projects.</p><button className="mt-8 px-8 py-4 rounded-full bg-purple-600">Start Project</button></section>}
