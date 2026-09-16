@@ -11,10 +11,14 @@ Premium cinematic animation studio website for **NovaFrame Studios**.
 - Selected work / case-study showcase
 - Animation and motion-design service grid
 - Four-step creative process
-- Mobile navigation
+- Mobile navigation with accessible controls
 - Contact CTA with email action
-- SEO metadata and branded favicon
+- SEO, Open Graph and Twitter metadata
+- Branded favicon and web app manifest
+- Crawler-friendly robots policy
+- Reduced-motion and keyboard-focus support
 - Responsive layouts for mobile, tablet and desktop
+- GitHub Actions production build check
 
 ## Run locally
 
