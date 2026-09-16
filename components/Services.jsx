@@ -1,0 +1,4 @@
+export default function Services(){
+ const items=['2D Animation','3D Animation','Motion Graphics','Character Design','Explainer Videos','Brand Animation'];
+ return <section className="bg-black text-white py-20 px-6"><h2 className="text-4xl font-bold text-center">Creative Services</h2><div className="grid md:grid-cols-3 gap-6 mt-12 max-w-6xl mx-auto">{items.map(i=><div key={i} className="p-8 rounded-2xl bg-zinc-900 border border-zinc-800 hover:scale-105 transition"><h3 className="text-2xl font-semibold">{i}</h3><p className="text-gray-400 mt-3">Premium visual storytelling crafted by NovaFrame Studios.</p></div>)}</div></section>
+}
