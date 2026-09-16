@@ -1,4 +1,5 @@
 import "./globals.css";
+import "./upgrade.css";
 import Script from "next/script";
 import InteractiveFX from "../components/InteractiveFX";
 
