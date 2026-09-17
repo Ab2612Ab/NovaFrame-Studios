@@ -54,6 +54,10 @@ export default function Home() {
       </header>
 
       <section ref={heroRef} className="hero" aria-labelledby="hero-title">
+        <div className="hero-video-background" aria-hidden="true">
+          <iframe src="https://player.vimeo.com/video/733560561?background=1&autoplay=1&loop=1&muted=1&title=0&byline=0&portrait=0" title="NovaFrame cinematic animation background" loading="eager" allow="autoplay; fullscreen; picture-in-picture" />
+        </div>
+        <div className="hero-video-overlay" aria-hidden="true" />
         <div className="hero-grid" aria-hidden="true" /><div className="hero-copy"><p className="eyebrow">Independent animation studio · 2026</p><h1 id="hero-title">Ideas<br /><em>in motion.</em></h1><p className="hero-text">We create cinematic animation, motion design and digital stories that make brands impossible to ignore.</p><div className="hero-actions"><a href="/work" className="button primary">Explore our work <span>↗</span></a><a href="/contact" className="text-link">Tell us your idea <span>↗</span></a></div></div>
         <div className="hero-3d" aria-label="Interactive 3D NovaFrame scene"><spline-viewer url="https://prod.spline.design/9951u9cumiw2EhJ8/scene.splinecode" loading-anim-type="spinner-small-dark" events-target="global" /><div className="hero-3d-shade" aria-hidden="true" /><div className="floating-label">INTERACTIVE 3D<br /><strong>DRAG / MOVE</strong></div></div><div className="hero-cursor-note" aria-hidden="true">MOVE YOUR CURSOR · EXPLORE THE FRAME</div><div className="scroll" aria-hidden="true">SCROLL TO EXPLORE <span>↓</span></div>
       </section>
