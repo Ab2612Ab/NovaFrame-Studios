@@ -1,9 +1,9 @@
 .hero { position: relative; isolation: isolate; overflow: hidden; }
-.hero-video-background { position: absolute; inset: 0; z-index: 0; overflow: hidden; pointer-events: none; background: #05040a; }
-.hero-video-background iframe { position: absolute; top: 50%; left: 50%; width: 177.78vh; height: 56.25vw; min-width: 100%; min-height: 100%; transform: translate(-50%, -50%) scale(1.08); border: 0; pointer-events: none; opacity: .82; }
-.hero-video-overlay { display: none; }
+.hero-video-background { position: absolute; inset: 0; z-index: 0; overflow: hidden; pointer-events: none; background: transparent; }
+.hero-video-background iframe { position: absolute; top: 50%; left: 50%; width: 177.78vh; height: 56.25vw; min-width: 100%; min-height: 100%; transform: translate(-50%, -50%) scale(1.08); border: 0; pointer-events: none; opacity: 1; }
+.hero-video-overlay { display: none !important; }
 .hero-grid { position: relative; z-index: 1; }
 .hero-copy, .hero-cursor-note, .scroll { position: relative; z-index: 2; }
 .hero-3d { position: relative; z-index: 1; }
-@media (max-width: 800px) { .hero-video-background iframe { width: 220vw; height: 124vw; transform: translate(-50%, -50%) scale(1.1); opacity: .72; } }
+@media (max-width: 800px) { .hero-video-background iframe { width: 220vw; height: 124vw; transform: translate(-50%, -50%) scale(1.1); opacity: 1; } }
 @media (prefers-reduced-motion: reduce) { .hero-video-background iframe { display: none; } .hero-video-background { background: #05040a; } }
