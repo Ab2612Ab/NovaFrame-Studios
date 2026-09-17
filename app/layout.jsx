@@ -1,5 +1,6 @@
 import "./globals.css";
 import "./upgrade.css";
+import "./hero-background.css";
 import Script from "next/script";
 import InteractiveFX from "../components/InteractiveFX";
 
